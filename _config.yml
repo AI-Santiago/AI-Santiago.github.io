@@ -10,9 +10,7 @@ locale                   : "en-US"
 title                    : "Yifan Li"
 title_separator          : "-"
 name                     : &name "Yifan Li"
-description              : &description "
-
-I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong. Prior to that, I received my Bachelor of Engineering degree in Artificial Intelligence from Xi'an Jiaotong University.
+description              : &description "I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong. Prior to that, I received my Bachelor of Engineering degree in Artificial Intelligence from Xi'an Jiaotong University.
 My research interests include natural language processing, knowledge graph, data mining. 
 
 
