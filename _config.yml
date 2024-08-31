@@ -25,6 +25,7 @@ Any discussion, co-operation, mentoring and being mentored are very welcome, and
 
 Thanks for reading!
 "
+
 url                      : https://ai-santiago.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "AI-Santiago/ai-santiago.github.io"
