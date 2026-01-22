@@ -15,9 +15,9 @@ I am particularly interested in knowledge representation and reasoning, recommen
 
 I'm still working on something that I can present, and for now, I may just share a quote that I really like.
 
-"Why do we have to listen to our hearts?" the boy asked.
-
-"Because, wherever your heart is, that is where you will find your treasure."
+> "Why do we have to listen to our hearts?" the boy asked.
+>
+> "Because, wherever your heart is, that is where you will find your treasure."
 
 Any discussion, collaboration, and mentoring (both giving and receiving) are very welcome, and I can be reached at liyifan@link.cuhk.edu.hk.
 
