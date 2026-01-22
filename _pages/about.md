@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, supervised by Prof. Irwin King (ACM Fellow, IEEE Fellow, AAAI Fellow). Prior to that, I received my B.Eng. degree in Artificial Intelligence from Qian Xuesen Honors College of Xi'an Jiaotong University.
+I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, supervised by Prof. Irwin King (ACM Fellow, IEEE Fellow, AAAI Fellow). Prior to that, I received my B.Eng. degree in Artificial Intelligence from Qian Xuesen Honors College at Xi'an Jiaotong University.
 
 I am particularly interested in knowledge representation and reasoning, recommender systems, and agentic AI.
 
