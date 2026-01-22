@@ -44,6 +44,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  font-size: 1em; /* 正文字号，覆盖 h2 的默认字号 */
 
   a {
     font-size: 1em; /* 正文字号 */
@@ -132,7 +133,7 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: 1em; /* 正文字号 */
     
     a {
       font-size: 1em; /* 正文字号 */
