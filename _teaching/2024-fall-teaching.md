@@ -1,5 +1,5 @@
 ---
-title: "CSCI3160 Design and Analysis of Algorithms"
+title: "CSCI3160: Design and Analysis of Algorithms"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2024-fall-teaching
