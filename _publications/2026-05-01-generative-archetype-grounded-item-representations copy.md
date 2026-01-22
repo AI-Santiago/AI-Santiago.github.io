@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2026-05-01-generative-archetype-grounded-item-representations
 date: 2026-05-01
 venue: 'WWW 2026'
+authors: '<b>Yifan Li</b>, Jiahong Liu, Xinni Zhang, Hao Chen, Yankai Chen, Wenhao Yu, Jianting Chen, Irwin King'
 # citation: '<b>Yifan Li</b>, Jiahong Liu, Xinni Zhang, Hao Chen, Yankai Chen, Wenhao Yu, Jianting Chen, Irwin King. &quot;Generative Archetype-Grounded Item Representations for Sequential Recommendation.&quot; <i>WWW 2026, AAAI 2026 Workshop Oral</i>.'
 ---
 

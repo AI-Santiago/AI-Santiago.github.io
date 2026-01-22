@@ -5,6 +5,7 @@ permalink: /publication/2025-12-01-from-evidence-to-trajectory
 date: 2025-12-01
 venue: 'NeurIPS 2025 Efficient Reasoning Workshop'
 paperurl: 'https://arxiv.org/abs/2509.23071'
+authors: 'Muzhi Li, Jinhu Qi, Yihong Wu, Minghao Zhao, Liheng Ma, <b>Yifan Li</b>, Xinyu Wang, Yingxue Zhang, Ho-fung Leung, Irwin King'
 # citation: 'Muzhi Li, Jinhu Qi, Yihong Wu, Minghao Zhao, Liheng Ma, <b>Yifan Li</b>, Xinyu Wang, Yingxue Zhang, Ho-fung Leung, Irwin King. &quot;From Evidence to Trajectory: Abductive Reasoning Path Synthesis for Training Retrieval-Augmented Generation Agents.&quot; <i>NeurIPS 2025 Workshop</i>.'
 ---
 
