@@ -1,5 +1,5 @@
 ---
-title: "CSCI2100/ESTR2102: Data Structures"
+title: "CSCI5640: Natural Language Processing"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2025-spring-teaching
@@ -8,7 +8,7 @@ date: 2026-01-05
 location: "Hong Kong, China"
 ---
 
-Undergraduate course
+Graduated-Level Course
 
 Offered by Prof. Liwei WANG, Spring 2025.
 

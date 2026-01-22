@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong. Prior to that, I received my Bachelor of Engineering degree in Artificial Intelligence from Xi'an Jiaotong University.
-I am particularly interested in knowledge representation and reasoning, recommender systems.
+I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, supervised by Prof. Irwin King. Prior to that, I received my B.Eng. degree in Artificial Intelligence from Qian Xuesen Honors College of Xi'an Jiaotong University.
+
+I am particularly interested in knowledge representation and reasoning, recommender systems, and agentic AI.
 
 
 I'm still working on something that I can present, and for now, I may just share a quote that I really like.
@@ -34,7 +35,7 @@ Thanks for reading!
 
 {% include section-teaching.html %}
 
----
+<!-- ---
 
 ## Portfolio
 
@@ -44,4 +45,4 @@ Thanks for reading!
 
 ## Talks and Presentations
 
-{% include section-talks.html %}
+{% include section-talks.html %} -->

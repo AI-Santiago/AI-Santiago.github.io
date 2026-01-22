@@ -8,7 +8,7 @@ date: 2024-09-02
 location: "Hong Kong, China"
 ---
 
-Undergraduate course
+Undergraduate Course
 
 Offered by Prof. Yufei TAO, Fall 2024.
 

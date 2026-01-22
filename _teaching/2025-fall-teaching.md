@@ -8,7 +8,7 @@ date: 2025-09-01
 location: "Hong Kong, China"
 ---
 
-Undergraduate course
+Undergraduate Course
 
 Offered by Dr. LAM King Tin, Fall 2025.
 

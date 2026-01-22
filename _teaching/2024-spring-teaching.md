@@ -8,7 +8,7 @@ date: 2025-01-01
 location: "Hong Kong, China"
 ---
 
-Undergraduate course
+Undergraduate Course
 
 Offered by Prof. Irwin King, Spring 2025.
 
