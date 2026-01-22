@@ -19,9 +19,7 @@ I'm still working on something that I can present, and for now, I may just share
 
 "Because, wherever your heart is, that is where you will find your treasure."
 
-Any discussion, co-operation, mentoring and being mentored are very welcome, and I can be reached at liyifan@link.cuhk.edu.hk.
-
-Thanks for reading!
+Any discussion, collaboration, and mentoring (both giving and receiving) are very welcome, and I can be reached at liyifan@link.cuhk.edu.hk.
 
 ---
 

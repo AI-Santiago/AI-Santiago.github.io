@@ -4,13 +4,13 @@ collection: publications
 permalink: /publication/2025-12-01-from-evidence-to-trajectory
 date: 2025-12-01
 venue: 'NeurIPS 2025 Efficient Reasoning Workshop'
-paperurl: 'https://www.arxiv.org/abs/2509.23071'
+paperurl: 'https://arxiv.org/abs/2509.23071'
 # citation: 'Muzhi Li, Jinhu Qi, Yihong Wu, Minghao Zhao, Liheng Ma, <b>Yifan Li</b>, Xinyu Wang, Yingxue Zhang, Ho-fung Leung, Irwin King. &quot;From Evidence to Trajectory: Abductive Reasoning Path Synthesis for Training Retrieval-Augmented Generation Agents.&quot; <i>NeurIPS 2025 Workshop</i>.'
 ---
 
 Retrieval-augmented generation agents development is hindered by the lack of process-level supervision to effectively guide agentic capabilities like task decomposition, retriever invocation, and stepwise decision-making. While reinforcement learning offers a potential solution, it suffers from sparse rewards and the limited reasoning capabilities of large language models (LLMs). Meanwhile, existing data synthesis methods only produce chain-of-thought rationales and fail to model environmental interactions. In this paper, we propose EviPath, an evidence-anchored reasoning path synthesis paradigm for RAG agent development. EviPath comprises: (i) Abductive Subtask Planning, which decomposes the problem into sub-questions and iteratively plans an optimal solution path based on the dependencies between them; (ii) Faithful Sub-question Answering, which uses supporting evidence to construct a proxy environment to generate reasoning thoughts and answers for each sub-question; and (iii) Conversational Fine-Tuning, which formats the complete agent-environment interaction trajectory into a dialogue format suitable for Supervised Fine-Tuning. EviPath allows LLMs to learn complex reasoning and tool-use capabilities directly from synthesized data. Extensive experiments on widely-used question-answering benchmarks show that an 8B parameter model trained with EviPath-synthesized data significantly and consistently outperforms state-of-the-art baselines with a double-digit absolute EM gain of 14.7% in open-domain question answering.
 
-<!-- [Download paper here](https://www.arxiv.org/abs/2509.23071)
+<!-- [Download paper here](https://arxiv.org/abs/2509.23071)
 
 Recommended citation: Muzhi Li, Jinhu Qi, Yihong Wu, Minghao Zhao, Liheng Ma, <b>Yifan Li</b>, Xinyu Wang, Yingxue Zhang, Ho-fung Leung, Irwin King. "From Evidence to Trajectory: Abductive Reasoning Path Synthesis for Training Retrieval-Augmented Generation Agents." <i>NeurIPS 2025 Workshop</i>. -->
 
