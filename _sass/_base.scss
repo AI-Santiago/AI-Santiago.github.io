@@ -13,7 +13,10 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.58;
+  background:
+    radial-gradient(circle at top left, rgba(79, 70, 229, 0.08), transparent 32rem),
+    linear-gradient(180deg, #f8fbff 0%, #fff 22rem);
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -25,7 +28,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 650;
+  color: #1e1b4b;
 }
 
 h1 {

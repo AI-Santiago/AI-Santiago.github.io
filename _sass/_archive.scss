@@ -42,13 +42,14 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.2em;
   font-family: $sans-serif-narrow;
-  font-size: 1em; /* 正文字号，覆盖 h2 的默认字号 */
+  font-size: 0.98em;
+  line-height: 1.35;
 
   a {
-    font-size: 1em; /* 正文字号 */
     color: $link-color;
+    font-weight: 650;
     
     &:hover {
       color: $link-color-hover;
@@ -58,6 +59,39 @@
   a + a {
     opacity: 0.5;
   }
+}
+
+.archive__item--publications,
+.archive__item--teaching {
+  padding: 0.85em 0;
+  border-bottom: 1px solid rgba($primary-color, 0.1);
+}
+
+.archive__item-authors {
+  margin: 0.15em 0 0.35em;
+  color: #64748b;
+  font-size: $type-size-6;
+  line-height: 1.45;
+}
+
+.archive__item-meta {
+  margin: 0.15em 0 0.35em;
+  color: #64748b;
+  font-size: $type-size-6;
+  line-height: 1.45;
+}
+
+.archive__item-venue {
+  display: block;
+  margin-top: 0.15em;
+  color: #475569;
+  font-style: italic;
+}
+
+.archive__item-link {
+  margin: 0.2em 0 0;
+  font-size: $type-size-6;
+  font-weight: 600;
 }
 
 /* remove border*/
@@ -71,6 +105,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
+  color: #475569;
   font-size: $type-size-6;
 
   & + p {
@@ -133,10 +168,9 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: 1em; /* 正文字号 */
+    font-size: 0.98em;
     
     a {
-      font-size: 1em; /* 正文字号 */
       color: $link-color;
       
       &:hover {

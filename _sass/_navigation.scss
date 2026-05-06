@@ -175,13 +175,15 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: transparent;
 
   a {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
     color: $masthead-link-color;
+    font-size: $type-size-6;
+    font-weight: 600;
     text-decoration: none;
 
     &:hover {
@@ -196,7 +198,7 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background: linear-gradient(135deg, $primary-color, $info-color);
     color: #fff;
     cursor: pointer;
   }
@@ -232,7 +234,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        background: linear-gradient(90deg, $primary-color, $info-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;

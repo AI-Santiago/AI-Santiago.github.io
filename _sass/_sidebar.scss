@@ -84,11 +84,11 @@
 
   img {
     max-width: 185px;
-    border-radius: 21%;
+    border-radius: 18%;
 
     @include breakpoint($large) {
       padding: 1px;
-      border: 1px solid $border-color;
+      border: 1px solid rgba($primary-color, 0.16);
     }
   }
 }
@@ -110,7 +110,7 @@
 
 .author__name {
   margin: 0;
-  color: #6a4c93; /* deep academic purple */
+  color: #1e1b4b;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -120,12 +120,12 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
-  color: #6a4c93; /* deep academic purple */
+  color: #1e1b4b;
 }
 
 .author__bio {
   margin: 0;
-  color: #6a4c93; /* deep academic purple */
+  color: #475569;
 
   @include breakpoint($large) {
     margin-top: 10px;

@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.collection %} archive__item--{{ post.collection }}{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -39,19 +39,36 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="archive__item-meta"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           {% if post.authors %}
-            <p>{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}. <i>{{ post.venue }}</i></p>
+            {% assign author_list = post.authors | split: ',' %}
+            {% assign first_author = author_list[0] | strip %}
+            {% assign second_author = author_list[1] | strip %}
+            {% assign yifan_already_shown = false %}
+            {% if first_author contains 'Yifan Li' %}
+              {% assign yifan_already_shown = true %}
+            {% endif %}
+            {% if second_author contains 'Yifan Li' %}
+              {% assign yifan_already_shown = true %}
+            {% endif %}
+            <p class="archive__item-authors">
+              {% if author_list.size > 4 %}
+                {{ first_author }}{% if second_author != "" %}, {{ second_author }}{% endif %}{% if post.authors contains 'Yifan Li' %}{% if yifan_already_shown == false %}, ..., <b>Yifan Li</b>{% endif %}{% endif %}, et al.
+              {% else %}
+                {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+              {% endif %}
+              {% if post.venue %}<span class="archive__item-venue">{{ post.venue }}</span>{% endif %}
+            </p>
           {% elsif post.citation %}
             {% assign citation_parts = post.citation | split: '&quot;' %}
             {% if citation_parts.size > 0 %}
-              <p>{{ citation_parts[0] | strip }}. <i>{{ post.venue }}</i></p>
+              <p class="archive__item-authors">{{ citation_parts[0] | strip }}{% if post.venue %}<span class="archive__item-venue">{{ post.venue }}</span>{% endif %}</p>
             {% else %}
-              <p><i>{{ post.venue }}</i></p>
+              <p class="archive__item-authors">{% if post.venue %}<span class="archive__item-venue">{{ post.venue }}</span>{% endif %}</p>
             {% endif %}
           {% else %}
-            <p><i>{{ post.venue }}</i></p>
+            <p class="archive__item-authors">{% if post.venue %}<span class="archive__item-venue">{{ post.venue }}</span>{% endif %}</p>
           {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -65,12 +82,14 @@
       {% endif %}
     {% endunless %}
     
-    {% if post.citation and post.paperurl %}
+    {% if post.collection == 'publications' and post.paperurl %}
+      <p class="archive__item-link"><a href="{{ post.paperurl }}">Paper link</a></p>
+    {% elsif post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+      <p class="archive__item-link"><a href="{{ post.paperurl }}">Paper link</a></p>
     {% endif %}
 
   </article>
