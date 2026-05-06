@@ -5,4 +5,4 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include section-publications.html %}
+{% include section-publications.html full_authors=true %}

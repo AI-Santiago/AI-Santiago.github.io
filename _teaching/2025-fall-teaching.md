@@ -8,6 +8,8 @@ date: 2025-09-01
 location: "Hong Kong, China"
 ---
 
+Undergraduate Course
+
 Offered by Dr. LAM King Tin, Fall 2025.
 
 This course introduces computer programming in Python. Students will learn modern programming concepts, problem solving and creation of computer applications using 
