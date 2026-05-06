@@ -53,7 +53,9 @@
               {% assign yifan_already_shown = true %}
             {% endif %}
             <p class="archive__item-authors">
-              {% if author_list.size > 4 %}
+              {% if include.full_authors %}
+                {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+              {% elsif author_list.size > 4 %}
                 {{ first_author }}{% if second_author != "" %}, {{ second_author }}{% endif %}{% if post.authors contains 'Yifan Li' %}{% if yifan_already_shown == false %}, ..., <b>Yifan Li</b>{% endif %}{% endif %}, et al.
               {% else %}
                 {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}

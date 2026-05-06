@@ -25,7 +25,7 @@ Any discussion, collaboration, and mentoring (both giving and receiving) are ver
 
 ## Publications
 
-{% include section-publications.html %}
+{% include section-publications.html full_authors=true %}
 
 ---
 
