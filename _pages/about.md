@@ -31,7 +31,7 @@ Any discussion, collaboration, and mentoring (both giving and receiving) are ver
 
 ## Teaching
 
-{% include section-teaching.html %}
+{% include section-teaching.html hide_excerpt=true %}
 
 <!-- ---
 

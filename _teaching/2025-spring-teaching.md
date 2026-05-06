@@ -8,8 +8,6 @@ date: 2026-01-05
 location: "Hong Kong, China"
 ---
 
-Graduated-Level Course
-
 Offered by Prof. Liwei WANG, Spring 2025.
 
 Natural language processing (NLP) is a crucial part of artificial intelligence (AI), which aims to endow computers with the ability to process human language. This course 

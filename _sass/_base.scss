@@ -15,8 +15,8 @@ body {
   font-family: $global-font-family;
   line-height: 1.58;
   background:
-    radial-gradient(circle at top left, rgba(79, 70, 229, 0.08), transparent 32rem),
-    linear-gradient(180deg, #f8fbff 0%, #fff 22rem);
+    radial-gradient(circle at top left, rgba(109, 40, 217, 0.12), transparent 32rem),
+    linear-gradient(180deg, #fbf7ff 0%, #fff 22rem);
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
