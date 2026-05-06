@@ -44,12 +44,10 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-  font-size: 1.12rem;
-  font-weight: 600;
-  line-height: 1.35;
+  font-size: 1em; /* 正文字号，覆盖 h2 的默认字号 */
 
   a {
-    font-size: 1em;
+    font-size: 1em; /* 正文字号 */
     color: $link-color;
     
     &:hover {
@@ -60,23 +58,6 @@
   a + a {
     opacity: 0.5;
   }
-}
-
-.archive__pub-meta {
-  margin-top: 0.1em;
-  margin-bottom: 0.75em;
-  font-size: 0.96rem;
-  line-height: 1.5;
-  color: #4b5563;
-}
-
-.archive__pub-authors {
-  font-weight: 500;
-}
-
-.archive__pub-venue {
-  color: mix(#fff, #4b5563, 15%);
-  letter-spacing: 0.01em;
 }
 
 /* remove border*/
@@ -152,10 +133,10 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: 1.08rem;
+    font-size: 1em; /* 正文字号 */
     
     a {
-      font-size: 1em;
+      font-size: 1em; /* 正文字号 */
       color: $link-color;
       
       &:hover {
