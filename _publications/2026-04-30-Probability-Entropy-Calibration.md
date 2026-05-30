@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2026-04-30-Probability-Entropy-Calibration
 date: 2026-04-30
 venue: 'ICML 2026'
-paperurl: 'https://arxiv.org/pdf/2602.01745'
+paperurl: 'https://arxiv.org/abs/2602.01745'
 authors: 'Wenhao Yu, Shaohang Wei, Jiahong Liu, <b>Yifan Li</b>, Minda Hu, Aiwei Liu, Hao Zhang, Irwin King'
 ---
 
